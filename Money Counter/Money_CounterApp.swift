@@ -11,7 +11,7 @@ import SwiftUI
 struct Money_CounterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            JointView()
         }
     }
 }

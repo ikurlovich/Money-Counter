@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593C78082A2A7E8C0018DD4B /* Logica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C78072A2A7E8C0018DD4B /* Logica.swift */; };
+		593C780C2A2A80770018DD4B /* JointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C780B2A2A80770018DD4B /* JointView.swift */; };
+		593C780E2A2AB8350018DD4B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C780D2A2AB8350018DD4B /* SwiftUIView.swift */; };
 		59D0DF612A2A6C5100EC44F8 /* Money_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D0DF602A2A6C5100EC44F8 /* Money_CounterApp.swift */; };
-		59D0DF632A2A6C5100EC44F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D0DF622A2A6C5100EC44F8 /* ContentView.swift */; };
+		59D0DF632A2A6C5100EC44F8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D0DF622A2A6C5100EC44F8 /* HomeView.swift */; };
 		59D0DF652A2A6C5200EC44F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D0DF642A2A6C5200EC44F8 /* Assets.xcassets */; };
 		59D0DF682A2A6C5200EC44F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D0DF672A2A6C5200EC44F8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		593C78072A2A7E8C0018DD4B /* Logica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logica.swift; sourceTree = "<group>"; };
+		593C780B2A2A80770018DD4B /* JointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JointView.swift; sourceTree = "<group>"; };
+		593C780D2A2AB8350018DD4B /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		59D0DF5D2A2A6C5100EC44F8 /* Money Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D0DF602A2A6C5100EC44F8 /* Money_CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_CounterApp.swift; sourceTree = "<group>"; };
-		59D0DF622A2A6C5100EC44F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59D0DF622A2A6C5100EC44F8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		59D0DF642A2A6C5200EC44F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59D0DF672A2A6C5200EC44F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				59D0DF602A2A6C5100EC44F8 /* Money_CounterApp.swift */,
-				59D0DF622A2A6C5100EC44F8 /* ContentView.swift */,
+				593C780B2A2A80770018DD4B /* JointView.swift */,
+				59D0DF622A2A6C5100EC44F8 /* HomeView.swift */,
+				593C78072A2A7E8C0018DD4B /* Logica.swift */,
+				593C780D2A2AB8350018DD4B /* SwiftUIView.swift */,
 				59D0DF642A2A6C5200EC44F8 /* Assets.xcassets */,
 				59D0DF662A2A6C5200EC44F8 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59D0DF632A2A6C5100EC44F8 /* ContentView.swift in Sources */,
+				593C78082A2A7E8C0018DD4B /* Logica.swift in Sources */,
+				593C780C2A2A80770018DD4B /* JointView.swift in Sources */,
+				59D0DF632A2A6C5100EC44F8 /* HomeView.swift in Sources */,
 				59D0DF612A2A6C5100EC44F8 /* Money_CounterApp.swift in Sources */,
+				593C780E2A2AB8350018DD4B /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +282,7 @@
 				DEVELOPMENT_TEAM = 8Q8855SSVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Money Counter";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +312,7 @@
 				DEVELOPMENT_TEAM = 8Q8855SSVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Money Counter";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
